@@ -4,6 +4,9 @@
     <title>Career Connect</title>
     <link rel="stylesheet" href="css/styles.css">
     <style>
+        h2 {
+            float: left;
+        }
         body {
             background-color: #D9D9D9
         }
@@ -22,7 +25,7 @@
         .listing-page {
             width: 50%;
             height: 100%;
-            overflow: auto;
+            overflow: hidden;
             float: left;
             padding-left: 1%;
             padding-right: 1%;
@@ -35,6 +38,23 @@
             border-width: 2px;
             border-color: black;
             border-style: solid;
+            border-radius: 15px;
+            margin-bottom: 1%;
+            padding: 1%;
+            overflow: hidden;
+        }
+        .list-p {
+            width: 80%;
+            padding-top: 1%;
+        }
+        .list-img{
+            float: right;
+            border-width: 2px;
+            border-color: black;
+            border-style: solid;
+            border-radius: 15px;
+            width: 10%;
+            height: auto;
         }
         .filter {
             width: 20%;
@@ -45,9 +65,18 @@
             border-width: 2px;
             border-color: black;
             border-style: solid;
+            border-radius: 5px;
         }
         .option {
             background-color: white;
+            border-radius: 5px;
+            
+        }
+        .join {
+            background-color: blue;
+            color: white;
+            float: right;
+            align-self: last baseline;
         }
     </style>
 </head>
@@ -69,7 +98,7 @@
     <div style="margin-top: 1%; width: 100%;">
         <div class="ad-space">
             <div class="ad">
-                X
+                X <img style="margin-left: auto; margin-right: auto; padding-bottom: 5%; padding-top: 5%;" src="images/car-ad.jpg" width="75%" height="75%">
             </div>
         </div>
         <div class="filter">
@@ -81,12 +110,28 @@
         <div class="listing-page">
             <h1 style="text-align: center; margin: 1%;">Listings</h1>
             <div class="listing">
-                listing
+                <h2>Example</h2><div class="list-img"><img style="" src="images/red-hammer.png"></div>
+                <br>
+                <p class="list-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eveniet pariatur suscipit illo rem! Reprehenderit aspernatur inventore, ut deserunt nulla tenetur, voluptas ea quos et doloribus laudantium labore quas quae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ratione rerum perferendis repudiandae voluptas! Corrupti ipsum ducimus blanditiis, assumenda quidem eum dolor quaerat voluptates eveniet pariatur deserunt, quis minus explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit repudiandae, reprehenderit dignissimos totam aliquid dolorum incidunt consequuntur rem ipsum debitis placeat veniam dicta corporis molestiae facere aut temporibus officiis officia!</p>
+                <a href="projects.html"><div class="btn join" href="projects.html">join</div></a>
             </div>
+            <div class="listing">
+                <h2>Example</h2><div class="list-img"><img style="" src="images/red-hammer.png"></div>
+                <br>
+                <p class="list-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione officia, explicabo ipsam officiis tempore at autem. Distinctio labore accusamus doloribus nam tempore, exercitationem facilis quia, commodi quisquam dicta animi tempora? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aliquam tempora mollitia, delectus eos vero aspernatur modi deserunt quisquam beatae, obcaecati doloremque repudiandae illo saepe odit accusantium a? Voluptate, natus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam error tenetur molestiae culpa sunt sit. Aspernatur, delectus laudantium explicabo fuga sunt, ab vero adipisci asperiores nisi architecto exercitationem unde aliquid?</p>
+                <a href="projects.html"><div class="btn join" href="projects.html">join</div></a>
+            </div>
+            <div class="listing">
+                <h2>Example</h2><div class="list-img"><img style="" src="images/red-hammer.png"></div>
+                <br>
+                <p class="list-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odio eligendi recusandae repudiandae quaerat eum, expedita amet? Earum, voluptate obcaecati. Rem sed non voluptas dolorum quod, fuga iusto similique enim! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat iusto eius necessitatibus quas sunt eaque, iste magnam provident voluptatem, officiis dolorem atque a labore? Ipsa rerum suscipit dolores aliquid ducimus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt quaerat non fugiat assumenda, omnis iure consequuntur neque magnam, quia minima molestiae dolorem magni accusantium voluptate blanditiis vitae doloribus hic beatae?</p>
+                <a href="projects.html"><div class="btn join">join</div></a>
+            </div>
+            
         </div>
         <div class="ad-space">
             <div class="ad">
-                X
+                X <img style="margin-left: auto; margin-right: auto; padding-bottom: 5%; padding-top: 5%;" src="images/car-ad-2.jpg" width="75%" height="75%">
             </div>
         </div>
     </div>
